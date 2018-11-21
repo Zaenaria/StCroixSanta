@@ -1,0 +1,22 @@
+/*St.Croix Santa website*/
+/*use percents for width and margins*/
+
+
+/*media-queries*/
+/*computer*/
+@media screen and (max-width: 980px){
+
+}
+
+/*tablet*/
+@media screen and (max-width: 650px) {
+
+}
+
+/*mobile*/
+@media screen and (max-width: 480px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+
+}
