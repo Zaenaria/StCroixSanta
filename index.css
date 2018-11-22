@@ -2,9 +2,13 @@
 /*use percents for width and margins*/
 body, html{
   height: 100%;
-  width: auto;
   margin: 0;
-  background-image: url("https://images.pexels.com/photos/702152/pexels-photo-702152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  padding: 0;
+}
+
+.pageWrap{
+  height: 100%;
+  background-image: url("https://images.pexels.com/photos/702152/pexels-photo-702152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,12 +17,25 @@ body, html{
 }
 
 #nav {
+<<<<<<< HEAD
   background-color: transparent;
   text-align: center;
   padding-top: 50%;
   padding: 0;
+=======
+  background-color: blue;
+  width: 40%;
+  height: 100%;
+>>>>>>> a65ce9c9a8a2e40080d40d6f4e842f5bc094a3b9
   margin: 0;
-  float: left;
+  position: relative;
+}
+
+#links{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 #nav li{
@@ -30,8 +47,7 @@ body, html{
   text-decoration: none;
   font-family: sans-serif;
   color: white;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 30px;
 }
 
 .links:hover{
