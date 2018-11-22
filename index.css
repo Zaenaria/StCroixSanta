@@ -14,28 +14,62 @@ body, html{
   background-size: cover;
   background-color: black;
   overflow: hidden;
+  font-family: 'Merriweather', serif;
+}
+
+#headerWrapper{
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  background-color: transparent;
+
+}
+
+#headerContent{
+    object-fit: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#mainImageWrapper{
+  width: 63%;
+  height: 59%;
+  padding: 0;
+  margin: 0;
+  float: right;
+  position: relative;
+  top: 40%;
+  left: 0;
+  z-index: 10;
+  background-color: transparent;
+}
+
+#mainImage{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
 
 #nav {
-<<<<<<< HEAD
   background-color: transparent;
-  text-align: center;
-  padding-top: 50%;
+  width: 50%;
+  height: 60%;
   padding: 0;
-=======
-  background-color: blue;
-  width: 40%;
-  height: 100%;
->>>>>>> a65ce9c9a8a2e40080d40d6f4e842f5bc094a3b9
   margin: 0;
-  position: relative;
+  float: left;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  z-index: 20;
 }
 
 #links{
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
+  text-align: right;
+  height: 100%;
+  width: 100%;
+
 }
 
 #nav li{
@@ -45,13 +79,16 @@ body, html{
 
 #nav a{
   text-decoration: none;
-  font-family: sans-serif;
-  color: white;
+  color: #E8EEF2;
   font-size: 30px;
 }
 
 .links:hover{
   cursor: pointer;
+}
+
+#nav a:hover{
+  background-color: #B7BAB0;
 }
 
 /*media-queries*/
@@ -62,13 +99,16 @@ body, html{
 
 /*tablet*/
 @media screen and (max-width: 650px) {
+  #nav a{
+    font-size: 5vw;
+  }
 
 }
 
 /*mobile*/
 @media screen and (max-width: 480px) {
-    html {
-        -webkit-text-size-adjust: none;
-    }
+  #nav a{
+    font-size: 5vw;
+  }
 
 }
