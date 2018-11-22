@@ -15,6 +15,7 @@ body, html{
 #nav {
   background-color: transparent;
   text-align: center;
+  padding-top: 50%;
   padding: 0;
   margin: 0;
   float: left;
